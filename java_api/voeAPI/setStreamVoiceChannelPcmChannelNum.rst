@@ -1,0 +1,26 @@
+setStreamVoiceChannelPcmChannelNum
+===============================
+**设置流式文件数据的声道数**
+
+1.接口说明
+
+设置指定id的系统音效数据的声道数
+
+2.函数原型
+::
+
+    int setStreamVoiceChannelPcmChannelNum(String id,int[] channelNum)
+
+3.示例代码
+::
+    try{
+    	int[] channelNum = new int[1];
+    	channelNum[0] = 2;
+        int tempChannelNum = client.setStreamVoiceChannelPcmChannelNum("1", channelNum);
+    } catch (IOException e) {
+            e.printStackTrace();
+    }
+    
+4.出错处理
+
+出错时，函数返回-1。
