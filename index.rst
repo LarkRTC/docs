@@ -23,6 +23,7 @@ LarkVoiceEngine Docs
    :maxdepth: 2
    :caption: API
 
+   errorcode
    changelog
    unity_api/index
    java_api/index
