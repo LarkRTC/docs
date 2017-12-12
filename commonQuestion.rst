@@ -11,6 +11,7 @@
 | 1)保证你注册成功并且发送相应请求(play or listen)
 | 2)保证双方加入同一个房间
 | 3)保证双方打开了扬声器和麦克风
+| 4)Android系统保证开启录音权限
 
 .. _demo: http://www.baidu.com/
 
@@ -24,3 +25,6 @@
 
 | **4.3d音效没有开启**
 | (以unity接口为例)
+| 1)首先在设置向量之前首先需要调用Enable3DVoice函数开启3d音效，然后才能设置相关向量
+| 2)你确定与3d音效相关的向量设置正确
+| 3)SetSpeakerPosition函数的设置需要在create相应的channel之后才能设置成功

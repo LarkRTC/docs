@@ -3,8 +3,8 @@ LarkVoiceEngine Docs
 文档分为如下几部分:
 
 * :ref:`about-docs`
-* :ref:`usage-docs`
 * :ref:`api-docs`
+* :ref:`usage-docs`
 
 .. _about-docs:
 
