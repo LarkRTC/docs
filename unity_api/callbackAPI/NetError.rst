@@ -1,5 +1,6 @@
-NetError
-========
+NetError 网络错误
+=====================
+
 **注册网络错误回调**
 
 1.接口说明
@@ -15,12 +16,13 @@ NetError
 
 3.示例代码
 ::
-    client.RegisterNetError(HandleNetError);
-    
     void HandleNetError(){
          UnityEngine.Debug.Log("Net Error");
     }    
 
-4.出错处理
+    client.RegisterNetError(HandleNetError);
+    
 
-出错时，函数返回-1。
+4.返回值
+设置回调返回错误码，0表示设置成功。
+

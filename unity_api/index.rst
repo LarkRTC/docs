@@ -8,6 +8,8 @@ code.
 
 	baseAPI/index
 	callbackAPI/index
-	netAPI/index
-	voeAPI/index
+	communication/index
+	localPlay/index
+	localRecord/index
+	3DVoice/index
     

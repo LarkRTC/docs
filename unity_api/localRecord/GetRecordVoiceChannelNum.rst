@@ -8,7 +8,6 @@ GetRecordVoiceChannelNum
 
 2.函数原型
 ::
-	
     int GetRecordVoiceChannelNum(ref uint32 channelNum)
 
 3.示例代码

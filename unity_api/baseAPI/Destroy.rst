@@ -1,5 +1,5 @@
-Destroy
-=======
+Destroy 销毁引擎对象
+==========================
 
 **销毁音频引擎**
 
@@ -9,10 +9,8 @@ Destroy
 
 2.函数原型
 ::
-    
     void Destroy();
 
 3.示例代码
 ::
-    
     client.Destroy();
