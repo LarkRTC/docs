@@ -1,4 +1,4 @@
-DeleteChannel
+Hangup 挂断
 =============
 **销毁声音管道**
 
@@ -8,12 +8,10 @@ DeleteChannel
 
 2.函数原型
 ::
-
     int DeleteChannel(string id);
 
 3.示例代码
 ::
-    
     client.DeleteChannel("1");
 
 4.出错处理

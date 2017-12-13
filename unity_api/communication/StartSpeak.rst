@@ -1,5 +1,6 @@
-StartSpeak
-==========
+StartSpeak 
+====================
+
 **开始说话**
 
 1.接口说明
@@ -8,12 +9,10 @@ StartSpeak
 
 2.函数原型
 ::
-
     int StartSpeak();
 
 3.示例代码
 ::
-    
     client.StartSpeak();
 
 4.出错处理

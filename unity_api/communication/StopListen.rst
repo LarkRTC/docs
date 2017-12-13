@@ -1,5 +1,6 @@
 StopListen
-==========
+================
+
 **停止听某人声音**
 
 1.接口说明
@@ -8,12 +9,10 @@ StopListen
 
 2.函数原型
 ::
-
     int StopListen(string id);
 
 3.示例代码
 ::
-    
     client.StopListen("1");
 
 4.出错处理

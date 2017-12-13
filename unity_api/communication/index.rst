@@ -6,12 +6,12 @@ code.
 
 .. toctree::
 
-   Register
-   DeRegister
+   Join
+   Exit
    StartSpeak
    StopSpeak
-   CreateChannel
-   DeleteChannel
+   Call
+   Hangup
    StartListen
    StopListen
 

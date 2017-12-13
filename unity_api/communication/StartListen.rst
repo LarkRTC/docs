@@ -1,5 +1,6 @@
 StartListen
-===========
+===================
+
 **开始听某人声音**
 
 1.接口说明
@@ -8,12 +9,10 @@ StartListen
 
 2.函数原型
 ::
-
     int StartListen(string id);
 
 3.示例代码
 ::
-    
     client.StartListen("1");
 
 4.出错处理
