@@ -7,6 +7,7 @@
 
 	JoinResult
 	NetError
-	RecordPcmData
+	RecordVoiceData
+	NeedAudioData
 	Vad
 	
