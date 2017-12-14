@@ -1,17 +1,17 @@
-Join 加入房间
+join 加入房间
 =================
 
 **加入房间**
 
 1.接口说明
 
-网络服务注册，只有注册过后才能使用后续网络服务(例如实时语音对话等)。该API是异步实现，是否注册成功需要在RegisterResult回调函数中获得结果。
-调用该API之后肯定会触发RegisterResult回调函数(需要先注册回调)。
+网络服务注册，只有注册过后才能使用后续网络服务(例如实时语音对话等)。该API是异步实现，是否注册成功需要在JoinResult回调函数中获得结果。
+调用该API之后肯定会触发JoinResult回调函数(需要先注册回调)。
 
 2.函数原型
 ::
     
-    int Join(string appID, string appKey, string userID, string roomID, int mode);
+    int join(string appID, string appKey, string userID, string roomID, int mode);
 
 - 参数说明：
 
@@ -30,7 +30,7 @@ mode       int         | mode设计分为主播模式（mode=1）和听众模式
 3.示例代码
 ::
     
-    client.Join("fef68f5cf1a1ad61", "95dc07bda45acba098b83f8ed29e460d", "1", "1", 1);
+    client.join("fef68f5cf1a1ad61", "95dc07bda45acba098b83f8ed29e460d", "1", "1", 1);
 
 4.返回值
 

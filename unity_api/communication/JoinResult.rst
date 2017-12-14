@@ -9,16 +9,16 @@ JoinResult 加入房间异步结果
 
 2.函数原型
 ::
-    int HandleRegisterResult(RegisterResult  result)
-    RegisterResult:(void*)(bool)
+    int SetJoinResultHandler(JoinResult  result)
+    JoinResult:(void*)(int)
 
 3.示例代码
 ::
     client.HandleRegisterResult(RegisterResult);
     
-    void RegisterResult(bool isSuccessful)
+    void RegisterResult(int  code)
     {
-        if (isSuccessful)
+        if (code == 0)
         {
             UnityEngine.Debug.Log("client.Register successful ");
         }
@@ -28,6 +28,3 @@ JoinResult 加入房间异步结果
         }
     }  
 
-4.出错处理
-
-出错时，函数返回-1。

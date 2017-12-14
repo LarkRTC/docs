@@ -1,4 +1,4 @@
-StopSpeak
+stopSpeak
 ========================
 
 **停止说话**
@@ -9,11 +9,11 @@ StopSpeak
 
 2.函数原型
 ::
-    int StopSpeak();
+    int stopSpeak();
 
 3.示例代码
 ::
-    client.StopSpeak();
+    client.stopSpeak();
 
 4.返回值
 

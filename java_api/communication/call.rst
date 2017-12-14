@@ -1,4 +1,4 @@
-Call 呼叫用户
+call 呼叫用户
 =================================
 
 **创建声音管道**
@@ -10,11 +10,11 @@ Call 呼叫用户
 
 2.函数原型
 ::
-    int Call(string id);
+    int call(string id);
 
 3.示例代码
 ::
-    client.Call("1");
+    client.call("1");
 
 4.返回值
 

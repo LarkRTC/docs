@@ -1,4 +1,4 @@
-StartSpeak 
+startSpeak 
 ====================
 
 **开始说话**
@@ -9,11 +9,11 @@ StartSpeak
 
 2.函数原型
 ::
-    int StartSpeak();
+    int startSpeak();
 
 3.示例代码
 ::
-    client.StartSpeak();
+    client.startSpeak();
 
 4.返回值
 

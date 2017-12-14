@@ -5,7 +5,7 @@ StopListen
 
 1.接口说明
 
-(停止后可调用DeleteChannel删除管道,用于释放资源)停止听对方说话，id为对方register时传递的userID。
+(停止后可调用Hangup删除管道,用于释放资源)停止听对方说话，id为对方register时传递的userID。
 
 2.函数原型
 ::
@@ -15,6 +15,6 @@ StopListen
 ::
     client.StopListen("1");
 
-4.出错处理
+4.返回值
 
-出错时，函数返回-1。
+错误返回错误码，0表示设置成功。

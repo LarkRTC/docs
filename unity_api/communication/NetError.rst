@@ -5,14 +5,13 @@ NetError 网络错误
 
 1.接口说明
 
-注册网络错误回调函数。如若发生网络错误(例如 远程服务器关闭,被同名id挤下线, 客户端未连接网络等等)，会抛出回调事件
-可以先调用DeRegister()断开服务器连接然后调用Register()重新鉴权达到断线重连的目的。
+注册网络错误回调函数。如若发生网络错误(例如 远程服务器关闭,被同名id挤下线, 客户端未连接网络等等)，会抛出回调事件。
 
 
 2.函数原型
 ::
-    int RegisterNetError(NetErrorHandle netError)
-    NetErrorHandle:(void*)()
+    int SetNetErrorHandler(NetError netError)
+    NetError:(void*)()
 
 3.示例代码
 ::
@@ -20,9 +19,10 @@ NetError 网络错误
          UnityEngine.Debug.Log("Net Error");
     }    
 
-    client.RegisterNetError(HandleNetError);
+    client.SetNetErrorHandler(HandleNetError);
     
 
 4.返回值
+
 设置回调返回错误码，0表示设置成功。
 

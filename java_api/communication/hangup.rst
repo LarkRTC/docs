@@ -1,4 +1,4 @@
-Hangup 挂断
+hangup 挂断
 =============
 **销毁声音管道**
 
@@ -8,11 +8,11 @@ Hangup 挂断
 
 2.函数原型
 ::
-    int Hangup(string id);
+    int hangup(final String id);
 
 3.示例代码
 ::
-    client.Hangup("1");
+    client.hangup("1");
 
 4.返回值
 
