@@ -6,23 +6,7 @@ code.
 
 .. toctree::
 
-	CreateMediaFile
-	InitMediaFileConfig
-	StartPlayMediaFile
-	StopPlayMediaFile
-	GetFileChannelFormat
-	GetFileSamplate
-	GetFileFormat
-	SetFileChannelFormat
-	SetFileSamplate
-	SetFileFormat
-	CreateStreamVoiceChannel
-	DeleteStreamVoiceChannel
-	InitSystemChannelConfig
-	GetStreamVoicePcmChannelFormat
-	GetStreamVoicePcmSamplate
-	GetStreamVoicePcmFormat
-	SetStreamVoicePcmChannelFormat
-	SetStreamVoicePcmSamplate
-	SetStreamVoicePcmFormat
+	PlayStreamVoice
+
+
 	

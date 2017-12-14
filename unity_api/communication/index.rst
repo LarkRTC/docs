@@ -7,6 +7,8 @@ code.
 .. toctree::
 
    Join
+   JoinResult
+   NetError
    Exit
    StartSpeak
    StopSpeak
@@ -14,4 +16,5 @@ code.
    Hangup
    StartListen
    StopListen
+   Vad
 

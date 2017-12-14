@@ -7,7 +7,6 @@ Unity3D 应用SDK接口。
 .. toctree::
 
 	baseAPI/index
-	callbackAPI/index
 	communication/index
 	localPlay/index
 	localRecord/index
