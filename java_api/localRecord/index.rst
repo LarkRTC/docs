@@ -3,7 +3,7 @@
 
 
 .. toctree::
-	SetRecordDataHandler
-	StartRecordVoiceData
-	StopRecordVoiceData
+	setRecordDataHandler
+	startRecordVoiceData
+	stopRecordVoiceData
 
