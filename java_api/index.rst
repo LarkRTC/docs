@@ -1,8 +1,8 @@
-UnityAPI
+javaAPI
 ==========
 
-Unity3D 应用SDK接口。
-语言：C#。
+java 应用SDK接口。
+语言：java。
 
 .. toctree::
 
