@@ -9,10 +9,10 @@
 
 2.函数原型
 ::
-    | int playStreamVoice(final String id, INeedAudio needAudio, SampleRate sampleRate  
-    |                                                            ChannelFormat channelFmt,
-    |														     Format fmt);
-    | INeedAudio:(boolean*)(final String id, byte[] data, int dataLen)
+     int playStreamVoice(final String id, INeedAudio needAudio, SampleRate sampleRate  
+                                                                ChannelFormat channelFmt,
+                                                                Format fmt);
+     INeedAudio:(boolean*)(final String id, byte[] data, int dataLen)
 
 
 3.示例代码

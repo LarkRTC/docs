@@ -9,10 +9,10 @@
 
 2.函数原型
 ::
-    | public delegate bool NeedAudioData(string id, byte[] data, ushort dataLen);
-    | int PlayStreamVoice(string id, NeedAudioData needAudio, SampleRate sampleRate = SampleRate.SAMPLERATE_48KHZ, 
-    |                                                         ChannelFormat channelFmt = ChannelFormat.STEREO,
-    |														  Format fmt = Format.FORMAT_S16);
+    public delegate bool NeedAudioData(string id, byte[] data, ushort dataLen);
+    int PlayStreamVoice(string id, NeedAudioData needAudio, SampleRate sampleRate = SampleRate.SAMPLERATE_48KHZ, 
+                                                            ChannelFormat channelFmt = ChannelFormat.STEREO,
+                                                            Format fmt = Format.FORMAT_S16);
 
 
 
