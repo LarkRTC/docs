@@ -5,7 +5,7 @@
 
 1.接口说明
 
-位置设置(以下API都需要在调用Enable3DVoice之后设置，SetSpeakerPosition需要在create相应channel之后才能调用成功)
+位置设置(以下API都需要在调用Enable3DVoice之后设置，SetSpeakerPosition需要在创建Channel之后才能调用成功)
 
 2.函数原型
 ::
