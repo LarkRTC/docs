@@ -11,12 +11,12 @@ init 初始化引擎环境
 2.函数原型
 ::
 
-    int init();
+    int init(Context context);
 
 3.示例代码
 ::
     
-    client.init();
+    client.init(this);
 
 4.返回值
 
