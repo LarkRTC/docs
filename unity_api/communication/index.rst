@@ -14,5 +14,6 @@
    Hangup
    StartListen
    StopListen
-   Vad
+   SelfVad
+   OtherVad
 
